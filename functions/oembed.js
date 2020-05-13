@@ -18,7 +18,8 @@
 // }
 export const handler = (event, context, callback) => {
   const { extract } = require('oembed-parser')
-  const { url } = JSON.parse(event.body)
+  // const { url } = JSON.parse(event.body)
+  const url = 'https://vimeo.com/412071250'
 
   extract(url)
     .then((data) => {
