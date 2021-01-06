@@ -12,7 +12,7 @@
     "build": "netlify-lambda build functions"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "encoding": "^0.1.12",
     "isomorphic-unfetch": "^3.0.0",
     "node-fetch": "^2.6.0",
